@@ -9,7 +9,7 @@ function Mainsm() {
   return (
     <div className="" id="img-load">
       <br />
-      <h1 id="header1" className="text-3xl font-bold text-center">
+      <h1 id="header1" className="text-3xl font-bold text-center mt-8">
         Stylish Websites
       </h1>
       <br />
@@ -104,8 +104,6 @@ function Mainsm() {
             style={{ maxWidth: "40%" }}
             className=""
           />
-          <br />
-          <br />
           <br />
         </center>
       </div>
