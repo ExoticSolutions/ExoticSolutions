@@ -6,7 +6,7 @@ function Navbarsm() {
         <div>
           <img src="./logo-exotic.png" alt="" style={{ maxWidth: "100%" }} />
         </div>
-        <div className="py-10" id="style-contact">
+        <div className="py-12" id="style-contact">
           <a href="https://linktr.ee/1ExoticSolutions" className="no-underline">
             Contact
           </a>

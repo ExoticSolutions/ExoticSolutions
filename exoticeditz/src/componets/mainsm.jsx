@@ -53,36 +53,52 @@ function Mainsm() {
         <br />
         <br />
       </center>
-      <div className="grid grid-cols-3 ms-16">
-        <div>
-          <img src="./java.svg" alt="" style={{ maxWidth: "49%" }} />
+      <div className="ms-8">
+        <div className="grid grid-cols-3 floating">
+          <div>
+            <img src="./java.svg" alt="" style={{ maxWidth: "49%" }} />
+          </div>
+          <div>
+            <img
+              src="./HTML5_Badge.svg.png"
+              alt=""
+              style={{ maxWidth: "49%" }}
+            />
+          </div>
+          <div>
+            <img
+              src="./React-icon.svg.png"
+              alt=""
+              style={{ maxWidth: "49%" }}
+            />
+          </div>
         </div>
-        <div>
-          <img src="./HTML5_Badge.svg.png" alt="" style={{ maxWidth: "49%" }} />
-        </div>
-        <div>
-          <img src="./React-icon.svg.png" alt="" style={{ maxWidth: "49%" }} />
-        </div>
-      </div>
-      <div className="grid grid-cols-3 ms-16 mt-10">
-        <div>
-          <img
-            src="./Unofficial_JavaScript_logo_2.svg.png"
-            alt=""
-            style={{ maxWidth: "49%" }}
-          />
-        </div>
-        <div>
-          <img src="./react-bootstrap.png" alt="" style={{ maxWidth: "49%" }} />
-        </div>
-        <div>
-          <img src="./w3_css-icon.svg" alt="" style={{ maxWidth: "49%" }} />
+        <br />
+        <br />
+        <div className="grid grid-cols-3 ms-20 mt-10 floating">
+          <div>
+            <img
+              src="./Unofficial_JavaScript_logo_2.svg.png"
+              alt=""
+              style={{ maxWidth: "49%" }}
+            />
+          </div>
+          <div>
+            <img
+              src="./react-bootstrap.png"
+              alt=""
+              style={{ maxWidth: "49%" }}
+            />
+          </div>
+          <div>
+            <img src="./w3_css-icon.svg" alt="" style={{ maxWidth: "49%" }} />
+          </div>
         </div>
       </div>
       <br />
       <br />
-      <div className="mb-20">
-        <center className="mt-5">
+      <div className="mb-20 floating">
+        <center className="mt-5 me-8">
           <img
             src="./tail.svg"
             alt=""
