@@ -24,6 +24,20 @@
   }
 }
 
+.splash-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: fadeOut 1.3s ease-in-out forwards;
+  z-index: 9999;
+}
+
 #sm-content {
   display: none;
   visibility: hidden;
@@ -43,6 +57,15 @@
     justify-content: center;
     align-items: center;
     overflow: auto; /* Allow scrolling on small screens */
+  }
+}
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
   }
 }
 

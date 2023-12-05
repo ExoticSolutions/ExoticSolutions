@@ -2,7 +2,12 @@ import "../index.css";
 function Footer() {
   return (
     <div>
-      <img src="./ima.png" alt="" style={{ maxWidth: "10%" }} />
+      <img
+        src="./ima.png"
+        alt=""
+        style={{ maxWidth: "10%" }}
+        className="mt-20 py-20"
+      />
 
       <div
         className="border border-stone-900 border-b-0 border-r-0 border-l-0"
