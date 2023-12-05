@@ -34,10 +34,12 @@
   #sm-content {
     display: block;
     visibility: visible;
-    background-image: url(./Corleonesm.svg);
+    background-image: url(./Corleone.svg);
     background-repeat: none;
+    background-size: cover;
     flex-direction: column;
     background-position-y: 990px;
+    background-position-x: -50px;
     justify-content: center;
     align-items: center;
     overflow: auto; /* Allow scrolling on small screens */
