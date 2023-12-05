@@ -7,7 +7,7 @@ import "swiper/css/effect-cards";
 import "../index.css";
 function Mainsm() {
   return (
-    <div className="">
+    <div className="" id="img-load">
       <br />
       <h1 id="header1" className="text-3xl font-bold text-center">
         Stylish Websites
@@ -108,6 +108,12 @@ function Mainsm() {
           <br />
           <br />
         </center>
+      </div>
+      <div className="grid grid-cols-2">
+        <div>
+          <img src="./ima.png" alt="" style={{ maxWidth: "50%" }} />
+        </div>
+        <div></div>
       </div>
     </div>
   );

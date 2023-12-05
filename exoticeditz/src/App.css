@@ -5,7 +5,7 @@
   background-color: #0c0a09;
 }
 #lg-content {
-  background-image: url(./Corleone.svg);
+  background-color: #0c0a09;
   background-repeat: none;
   background-size: cover;
   background-position-y: -18vh;
@@ -34,7 +34,7 @@
   #sm-content {
     display: block;
     visibility: visible;
-    background-image: url(./Corleone.svg);
+    background-color: #0c0a09;
     background-repeat: none;
     background-size: cover;
     flex-direction: column;

@@ -30,6 +30,7 @@ function App() {
         <div className="grid grid-rows-1">
           <br />
           <br />
+
           <Footer />
         </div>
       </div>
