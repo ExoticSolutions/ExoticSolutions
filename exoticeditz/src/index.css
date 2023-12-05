@@ -10,8 +10,9 @@
 }
 
 #style-foot-link {
-  font-weight: 700;
-  font-size: medium;
+  font-weight: 300;
+  font-size: large;
+  font-family: Corleone;
 }
 
 #style-contact {
@@ -52,4 +53,31 @@
   100% {
     transform: translate(0, -0px);
   }
+}
+
+#style-contact-link {
+  font-family: Corleone;
+  font-size: x-large;
+  color: whitesmoke;
+}
+
+#style-text {
+  font-family: Corleone;
+  color: whitesmoke;
+  font-size: 40px;
+  font-weight: 100;
+}
+
+#built {
+  font-family: Corleone;
+  color: whitesmoke;
+  font-size: 10px;
+  font-weight: 100;
+}
+
+#built-sm {
+  font-family: Corleone;
+  color: whitesmoke;
+  font-size: 13px;
+  font-weight: 400;
 }

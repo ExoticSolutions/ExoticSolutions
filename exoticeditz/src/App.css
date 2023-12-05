@@ -5,17 +5,11 @@
   background-color: #0c0a09;
 }
 #lg-content {
-  background-color: #0c0a09;
+  background-color: #000;
+
   background-repeat: none;
-  background-size: cover;
-  background-position-y: -18vh;
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
+  background-size: contain;
+  background-position: center;
 }
 
 @media (max-width: 576px) {
@@ -48,7 +42,7 @@
   #sm-content {
     display: block;
     visibility: visible;
-    background-color: #0c0a09;
+    background-color: black;
     background-repeat: none;
     background-size: cover;
     flex-direction: column;

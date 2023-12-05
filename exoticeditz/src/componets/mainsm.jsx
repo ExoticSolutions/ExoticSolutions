@@ -96,22 +96,19 @@ function Mainsm() {
       </div>
       <br />
       <br />
-      <div className="mb-20 floating">
-        <center className="mt-5 me-8">
-          <img
-            src="./tail.svg"
-            alt=""
-            style={{ maxWidth: "40%" }}
-            className=""
-          />
-          <br />
-        </center>
+      <div className="mt-5 flex floating justify-center me-15">
+        <p id="built-sm" className=" me-3 mt-1">
+          Built with
+        </p>
+        <img src="./tail.svg" alt="" style={{ maxWidth: "40%" }} className="" />
       </div>
-      <div className="grid grid-cols-2">
+      <br />
+      <br />
+      <br />
+      <div className="grid grid-cols-1">
         <div>
-          <img src="./ima.png" alt="" style={{ maxWidth: "50%" }} />
+          <img src="./ima.png" alt="" style={{ maxWidth: "30%" }} />
         </div>
-        <div></div>
       </div>
     </div>
   );
