@@ -1,4 +1,4 @@
-<h2 align="left">Hi 👋! My name is Rafael and I'm a developer who enjoys learning new thigns to imporve my programming skills</h2>
+<h2 align="left">Welcome 👋! I'm a developer who enjoys learning new thigns to imporve my programming skills</h2>
 
 ###
 
